@@ -1,12 +1,9 @@
 package AsciiImageConverter;
 
-import com.sun.istack.internal.NotNull;
-import com.sun.istack.internal.Nullable;
 import javafx.embed.swing.SwingFXUtils;
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
 import javafx.scene.control.Button;
-import javafx.scene.control.ProgressBar;
 import javafx.scene.control.TextArea;
 import javafx.scene.image.ImageView;
 import javafx.scene.layout.Pane;
@@ -29,10 +26,6 @@ public class Controller {
     ImageView imgGreyscale;
     @FXML
     TextArea txtAsciiImage;
-    @FXML
-    ProgressBar progressGreyscale;
-    @FXML
-    ProgressBar progressCharacter;
 
     @FXML
     public void initialize() {
